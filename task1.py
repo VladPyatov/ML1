@@ -1,4 +1,4 @@
-#Самое первое задание на coursera Воронцов введение в МО
+#Воронцов, МО
 
 import pandas as pd
 import re
