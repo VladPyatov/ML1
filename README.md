@@ -29,7 +29,8 @@ passenger class (Pclass), ticket price (Fare), passenger age (Age), and gender (
 3. Create a splitter generator
 4. Find the cross-validation classification accuracy for the k nearest neighbors method for k from 1 to 50.
 5. Scale features.
-6. What value of k turned out to be optimal after reducing the features to the same scale? Did feature scaling help?
+6. What value of k turned out to be optimal after reducing the features to the same scale?
+   Did feature scaling help?
 
 # Task 2_2:
 1. Download the Boston set.
@@ -38,3 +39,13 @@ passenger class (Pclass), ticket price (Fare), passenger age (Age), and gender (
 4. Go through the different options for the metric parameter p over the grid
    from 1 to 10 in such a way that 200 options are tested in total.
 5. At what p the quality of cross-validation was optimal?
+
+# Task 2_3:
+1. Download the training and test samples from perceptron-train.csv and perceptron-test.csv files.
+2. Train perceptron with standard parameters.
+3. Calculate the accuracy of the resulting classifier in the test sample.
+4. Normalize training and test samples.
+5. Train perceptron on a new sample.
+6. Calculate the accuracy of the resulting classifier in the (std) test sample.
+7. Find the difference between the accuracy in the test sample after normalization and the accuracy before it.
+
