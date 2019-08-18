@@ -1,4 +1,3 @@
-#Воронцов, МО
 
 import pandas as pd
 import re
