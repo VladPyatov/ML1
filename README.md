@@ -1,6 +1,6 @@
-# MachineLearning1_Week1
+# Week1
 Dataset from https://www.kaggle.com/c/titanic/data
-# Task 1:
+# Task 1_1:
 1. How many men and women were on the ship? As an answer, give two numbers separated by a space.
 2. How many passengers survived? Calculate the proportion of surviving passengers.
 Give the answer in percents
@@ -12,7 +12,7 @@ Count the Pearson correlation between traits SibSp и Parch.
 6. What is the most popular female name on the ship?
 Extract the passenger’s full name (Name column) from his personal name (First Name).
 
-# Task 2:
+# Task 1_2:
 1. Download the selection from the titanic.csv file using the Pandas package.
 2. Leave 4 features in the selection:
 passenger class (Pclass), ticket price (Fare), passenger age (Age), and gender (Sex).
@@ -21,3 +21,20 @@ passenger class (Pclass), ticket price (Fare), passenger age (Age), and gender (
 5. Find all objects that have NaN features and remove them from the selection.
 6. Train the decision tree with the random_state = 241 parameter and other default parameters.
 7. Calculate the importance of the features and find the two features with the greatest importance.
+
+# Week2
+# Task 1:
+1. Download the Wine set.
+2. Extract features and classes from the data.
+3. Create a splitter generator
+4. Find the cross-validation classification accuracy for the k nearest neighbors method for k from 1 to 50.
+5. Scale features.
+6. What value of k turned out to be optimal after reducing the features to the same scale? Did feature scaling help?
+
+# Task 2:
+1. Download the Boston set.
+2. Scale features.
+3. Create a splitter generator.
+4. Go through the different options for the metric parameter p over the grid
+   from 1 to 10 in such a way that 200 options are tested in total.
+5. At what p the quality of cross-validation was optimal?
