@@ -23,7 +23,7 @@ passenger class (Pclass), ticket price (Fare), passenger age (Age), and gender (
 7. Calculate the importance of the features and find the two features with the greatest importance.
 
 # Week2
-# Task 1:
+# Task 2_1:
 1. Download the Wine set.
 2. Extract features and classes from the data.
 3. Create a splitter generator
@@ -31,7 +31,7 @@ passenger class (Pclass), ticket price (Fare), passenger age (Age), and gender (
 5. Scale features.
 6. What value of k turned out to be optimal after reducing the features to the same scale? Did feature scaling help?
 
-# Task 2:
+# Task 2_2:
 1. Download the Boston set.
 2. Scale features.
 3. Create a splitter generator.
