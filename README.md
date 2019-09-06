@@ -1,5 +1,4 @@
 # Week 1
-Dataset from https://www.kaggle.com/c/titanic/data
 # Task 1_1 – Pandas data preprocessing:
 1. How many men and women were on the ship? As an answer, give two numbers separated by a space.
 2. How many passengers survived? Calculate the proportion of surviving passengers.
@@ -76,3 +75,46 @@ passenger class (Pclass), ticket price (Fare), passenger age (Age), and gender (
 5. Calculate the area under the ROC curve for each classifier.
 6. Which classifier achieves the greatest accuracy (Precision) with a completeness (Recall) of at least 70%?
 
+# Week 4
+# Task 4_1 - Linear Regression:
+1. Load job descriptions and corresponding annual salaries from salary-train.csv file.
+2. Bring text to lower case.
+3. Replace everything except letters and numbers with spaces.
+4. Use TfidfVectorizer to convert texts to feature vectors.
+5. Replace the omissions in the LocationNormalized and ContractTime columns with the special string 'nan'.
+6. Use the DictVectorizer to get one-hot coding of the LocationNormalized and ContractTime features.
+7. Combine all the received features in one matrix "objects-features".
+8. Train ridge regression with alpha = 1 and random_state = 241.
+9. Build predictions for two examples from the salary-test-mini.csv file.
+
+# Task 4_2- PCA:
+1. Load data from close_prices.csv file.
+2. On the downloaded data, train the PCA with 10 components.
+3. How many components are enough to explain 90% of the variance?
+4. Load the Dow Jones Index information from djia_index.csv file.
+5. What is the Pearson correlation between the first component and the Dow Jones index?
+6. Which company has the most weight in the first component?
+
+# Week 5
+# Task 5_1 Random Forest:
+1. Load the data from abalone.csv file.
+    This is a dataset in which you want to predict the age of the shell (the number of rings) by physical measurements.
+2. Convert the sign Sex to numeric: the value of F should go to -1, I to 0, M to 1.
+3. Separate the contents of the files into attributes and the target variable.
+4. Train a random forest with a different number of trees: from 1 to 50 (metric - r2).
+5. At what minimum number of trees a random forest shows quality in cross-validation above 0.52?
+
+# Task 5_2 GBM:
+1. Load the samples from the gbm-data.csv file.
+2. Split the samples into training and test.
+3. Train GradientBoostingClassifier (n_estimators = 250, verbose = True, random_state = 241).
+4. Use the staged_decision_function method to predict the scores of the training and test samples at each iteration.
+    Transform the resulting prediction using the sigmoid function.
+5. Calculate and plot the log-loss values on the training and test samples.
+6. Give the minimum log-loss value on the test sample
+    and the iteration number at which it is achieved with learning_rate = 0.2.
+7. On the same data, train RandomForestClassifier with the number of trees
+    equal to the number of iterations at which the best quality is achieved for the gradient boosting
+    from the previous paragraph, with random_state = 241 and other default parameters.
+8. What is the value of log-loss on the test for this random forest?
+    
