@@ -118,3 +118,15 @@ passenger class (Pclass), ticket price (Fare), passenger age (Age), and gender (
     from the previous paragraph, with random_state = 241 and other default parameters.
 8. What is the value of log-loss on the test for this random forest?
     
+# Week 6
+# Task 6_1 Clustering:
+1. Load the parrots.jpg picture.
+2. Convert the image by converting all values to an interval from 0 to 1.
+3. Create the "feature-objects" matrix:
+    characterize each pixel with three coordinates - intensity values in RGB space.
+4. Run the K-Means algorithm with parameters init = 'k-means ++' and random_state = 241.
+5. After selecting the clusters, try to fill in all the pixels assigned to the same cluster
+    in two ways: median and middle color across the cluster.
+6. Measure the quality of the resulting segmentation using the PSNR metric.
+7. Find the minimum number of clusters at which the PSNR value is above 20.
+
